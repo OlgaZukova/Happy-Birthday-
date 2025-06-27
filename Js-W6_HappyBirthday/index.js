@@ -1,8 +1,8 @@
-function christmasCountDown(){
-    const christmasDate = new Date("April 22, 2026 00:00");
+function birthdayCountDown(){
+    const birthdayDate = new Date("April 22, 2026 00:00");
     const now = new Date();
-    console.log(christmasDate, now);
-    const diff = christmasDate - now;
+    console.log(birthdayDate, now);
+    const diff = birthdayDate - now;
     console.log(diff)
 
     const msInSecond = 1000;
@@ -29,12 +29,12 @@ function christmasCountDown(){
     document.querySelector(".seconds").textContent = 0; 
     
     clearInterval(timerID)
-    merryChristmas();
+    happyBirthday();
     }
 }
-let timerID = setInterval(christmasCountDown, 1000);
+let timerID = setInterval(birthdayCountDown, 1000);
 
-function merryChristmas(){
+function happyBirthday(){
     const heading = document.querySelector("h1");
     heading.textContent = "HAPPY BIRTHDAY!!!";
     heading.classList.add("violet");
