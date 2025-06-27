@@ -1,0 +1,65 @@
+body{
+    background-image:url(me.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f8b1d0;
+}  
+.heading {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 60px;
+    background-color: rgba(251, 248, 249, 0.9);
+    padding: 5px;
+    border: 3px solid black;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.birthday {
+    background-color: rgba(251, 248, 249, 0.82); 
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+.days, .hours, .minutes, .seconds{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;    
+}
+.violet{
+    font-size: 60px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(112, 13, 112);
+}
+button{
+    margin-left: 100px;
+    border: none;
+}
+@media all and(max-width: 800px){
+    h1{
+        font-size: 40px;
+    }
+}
+@media all and(max-width: 500px){
+    h1{
+        font-size: 30px;
+    }
+}
