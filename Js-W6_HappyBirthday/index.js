@@ -1,5 +1,5 @@
 function birthdayCountDown(){
-    const birthdayDate = new Date("April 22, 2025 00:00");
+    const birthdayDate = new Date("April 22, 2026 00:00");
     const now = new Date();
     
     console.log(birthdayDate, now);
