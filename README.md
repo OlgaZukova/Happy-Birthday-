@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/859816ff-cec0-4473-9a2a-cee1b05c8486)
+![image](https://github.com/user-attachments/assets/b627badf-76b9-4b6e-b6e6-585ed96715d2)
+
 "Happy Birthday!" Web App: This is a festive web application that displays a live countdown to your Birthday! (put yout date). It includes music, animated countdown, and a warm holiday design.
 
 Project Structure: index.html – Main HTML page with the layout and audio player style.css – Styles for layout, fonts, and colors index.js – JavaScript logic to calculate and update the countdown timer
@@ -9,4 +10,4 @@ How to Use Download or clone the project: git clone [https://github.com/youruser
 
 Technologies: Used HTML5 CSS3 (Flexbox + Google Fonts) JavaScript (Vanilla) Audio playback using tag
 
-Future: Improvements Add flowers animation, Let users customize the date (New Year, birthdays, etc.) Store preferences (e.g., mute audio)
+Future: Improvements Let users customize the date (New Year, birthdays, etc.) Store preferences (e.g., mute audio)
