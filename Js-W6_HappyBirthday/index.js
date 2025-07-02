@@ -1,6 +1,7 @@
 function birthdayCountDown(){
-    const birthdayDate = new Date("April 22, 2026 00:00");
+    const birthdayDate = new Date("April 22, 2025 00:00");
     const now = new Date();
+    
     console.log(birthdayDate, now);
     const diff = birthdayDate - now;
     console.log(diff)
@@ -36,8 +37,25 @@ let timerID = setInterval(birthdayCountDown, 1000);
 
 function happyBirthday(){
     const heading = document.querySelector("h1");
-    heading.textContent = "HAPPY BIRTHDAY!!!";
+    heading.textContent = "Happy Birthday!!!";
     heading.classList.add("violet");
+
+        const flowerEmoji = ['🌸','❀','💮','🌺','💮'];
+        const numberOfFlowers = 50;
+
+        for (let i = 0; i < numberOfFlowers; i++) {
+        const flower = document.createElement('div');
+        flower.className = 'flower';
+        flower.innerText = flowerEmoji[Math.floor(Math.random() * flowerEmoji.length)];
+      
+        flower.style.left = Math.random() * 100 + 'vw';
+        flower.style.fontSize = 12 + Math.random() * 24 + 'px';
+        flower.style.animationDuration = 5 + Math.random() * 5 + 's';
+        flower.style.animationDelay = Math.random() * 5 + 's';
+
+        document.body.appendChild(flower);
+        flower.classList.add("violet");
+    }
 }
 
 const button = document.querySelector("#myButton");
