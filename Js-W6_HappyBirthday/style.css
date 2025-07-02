@@ -85,8 +85,3 @@ button{
         font-size: 30px;
     }
 }
-@media all and(max-width: 500px){
-    h1{
-        font-size: 30px;
-    }
-}
