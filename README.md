@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/b627badf-76b9-4b6e-b6e6-585ed96715d2)
+![image](https://github.com/user-attachments/assets/833bd3d2-e087-4c7c-97dd-60ae03472c81)
+
 
 "Happy Birthday!" Web App: This is a festive web application that displays a live countdown to your Birthday! (put yout date). It includes music, animated countdown, and a warm holiday design.
 
